@@ -1,5 +1,5 @@
-# P2DFFT
-_P2DFFT_ is a new parallelized version of _2DFFT_, a code that allows the user to isolate and measure the spiral arm pitch angle of galaxies. The user input has been simplified and depending on the number of cores available, _P2DFFT_ runs significantly faster than the older serial version, _2DFFT_. Further enhancements include:
+# Overview
+P2DFFT has simplified the user input and depending on the number of cores available, runs significantly faster than the older serial version, _2DFFT_. Further enhancements include:
 * Allowing direct input of FITS images
 * Optionally outputting inverse Fourier transform FITS images
 * Ability to generate idealized logarithmic spiral test images of a specified size that have 1 to 6 arms with pitch angles of -75 degrees to 75 degrees
@@ -12,4 +12,5 @@ _2DFFT_ can be found here.  If you publish results using this code, please cite 
 
 Davis et al. 2012, Measurement of Galactic Logarithmic Spiral Arm Pitch Angle Using Two-Dimensional Fast Fourier Transform Decomposition, ApJS 199: 33 (2012, ApJS).
 * * *
+# Available Versions
 [p2dfft-3.1.tgz](https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-3.1.tgz)
