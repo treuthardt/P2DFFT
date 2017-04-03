@@ -10,7 +10,7 @@ _P2DFFT_ is in the process of being published and is therefore considered propri
 
 _2DFFT_ can be found [here](http://www.d.umn.edu/~msseigar/2DFFT/2DFFT.tar.gz).  If you publish results using this code, please cite the following paper:
 
-Davis et al. 2012, Measurement of Galactic Logarithmic Spiral Arm Pitch Angle Using Two-Dimensional Fast Fourier Transform Decomposition, ApJS 199: 33 ([2012, ApJS](http://iopscience.iop.org/0067-0049/199/2/33/)).
+Davis et al. 2012, _Measurement of Galactic Logarithmic Spiral Arm Pitch Angle Using Two-Dimensional Fast Fourier Transform Decomposition_, ApJS 199: 33 ([2012, ApJS](http://iopscience.iop.org/0067-0049/199/2/33/)).
 * * *
 # Available Versions
 [p2dfft-3.1.tgz](https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-3.1.tgz)
