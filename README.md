@@ -6,6 +6,7 @@ _P2DFFT_ has simplified the user input and depending on the number of cores avai
 * Ability to output Fourier amplitude versus inner radius and pitch angle versus inner radius for each Fourier component (m = 0 to m = 6)
 * Ability to calculate the Fourier amplitude weighted mean pitch angle across m = 1 to m = 6 versus inner radius
 * * *
+
 # Citation
 _P2DFFT_ is in the process of being published and is therefore considered proprietary at the moment. We are willing to share the code in exchange for co-authorship. If you are interested in using this new code, please contact [Patrick Treuthardt](mailto:patrick.treuthardt@naturalsciences.org) or [Marc Seigar](mailto:msseigar@d.umn.edu).
 
