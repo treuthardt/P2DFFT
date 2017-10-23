@@ -18,7 +18,7 @@ _2DFFT_ can be found [here](http://www.d.umn.edu/~msseigar/2DFFT/2DFFT.tar.gz). 
 
 [p2dfft-4.1.tgz](https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-4.1.tgz) (Minor bug fixes when using the -n [nautical mile] option on the avg.py tool)
 
-[p2dfft-4.0.tgz](https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-4.0.tgz) (Major update to switch to using the Harvard FFTW3 libraries for performance and better licensing terms.  Alos further updates to avg.py output plotting program, bug fixes, additional documentation, and more usuability enhancements)
+[p2dfft-4.0.tgz](https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-4.0.tgz) (Major update to switch to using the Harvard FFTW3 libraries for performance and better licensing terms.  Also further updates to avg.py output plotting program, bug fixes, additional documentation, and more usuability enhancements)
 
 [p2dfft-3.5.tgz](https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-3.5.tgz) (Major updates to avg.py output plotting program, bug fixes, and usuability enhancements)
 
