@@ -1,4 +1,4 @@
-
+***
 # Overview
 _P2DFFT_ has simplified the user input and depending on the number of cores available, runs significantly faster than the older serial version, _2DFFT_. Further enhancements include:
 * Allowing direct input of FITS images
@@ -6,7 +6,6 @@ _P2DFFT_ has simplified the user input and depending on the number of cores avai
 * Ability to generate idealized logarithmic spiral test images of a specified size that have 1 to 6 arms with pitch angles of -75 degrees to 75 degrees
 * Ability to output Fourier amplitude versus inner radius and pitch angle versus inner radius for each Fourier component (m = 0 to m = 6)
 * Ability to calculate the Fourier amplitude weighted mean pitch angle across m = 1 to m = 6 versus inner radius
-
 * * *
 # Citation
 If you publish results using _P2DFFT_, please cite the following paper:
@@ -18,7 +17,6 @@ _2DFFT_ can be found [here](http://www.d.umn.edu/~msseigar/2DFFT/2DFFT.tar.gz). 
 [Davis, B. L., Berrier, J. C., Shields, D. W, et al., _Measurement of Galactic Logarithmic Spiral Arm Pitch Angle Using Two-Dimensional Fast Fourier Transform Decomposition_, ApJS, 199: 33 (2012)](http://iopscience.iop.org/0067-0049/199/2/33/).
 * * *
 # Available Versions
-
 [p2dfft-4.1.tgz](https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-4.1.tgz) (Minor bug fixes when using the -n [nautical mile] option on the avg.py tool)
 
 [p2dfft-4.0.tgz](https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-4.0.tgz) (Major update to switch to using the Harvard FFTW3 libraries for performance and better licensing terms.  Also further updates to avg.py output plotting program, bug fixes, additional documentation, and more usuability enhancements)
