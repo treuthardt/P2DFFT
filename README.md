@@ -1,4 +1,5 @@
-# Overview test
+* * *
+# Overview
 _P2DFFT_ has simplified the user input and depending on the number of cores available, runs significantly faster than the older serial version, _2DFFT_. Further enhancements include:
 * Allowing direct input of FITS images
 * Optionally outputting inverse Fourier transform FITS images
