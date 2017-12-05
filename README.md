@@ -1,3 +1,4 @@
+***
 # Overview
 _P2DFFT_ has simplified the user input and depending on the number of cores available, runs significantly faster than the older serial version, _2DFFT_. Further enhancements include:
 * Allowing direct input of FITS images
@@ -8,11 +9,14 @@ _P2DFFT_ has simplified the user input and depending on the number of cores avai
 
 * * *
 # Citation
-_P2DFFT_ is in the process of being published and is therefore considered proprietary at the moment. We are willing to share the code in exchange for co-authorship. If you are interested in using this new code, please contact [Patrick Treuthardt](mailto:patrick.treuthardt@naturalsciences.org) or [Marc Seigar](mailto:msseigar@d.umn.edu).
+If you publish results using _P2DFFT_, please cite the following paper:
+
+[Mutlu-Pakdil, B., Seigar, M. S., Hewitt, I. B., Treuthardt, P., Berrier, J. C., & Koval, L. E., _The Illustris Simulation: Supermassive Black Hole - Galaxy Connection Beyond the Bulge_, MNRAS, (2017, in press)](https://doi.org/10.1093/mnras/stx2935).
 
 _2DFFT_ can be found [here](http://www.d.umn.edu/~msseigar/2DFFT/2DFFT.tar.gz).  If you publish results using this code, please cite the following paper:
 
 [Davis, B. L., Berrier, J. C., Shields, D. W, et al., _Measurement of Galactic Logarithmic Spiral Arm Pitch Angle Using Two-Dimensional Fast Fourier Transform Decomposition_, ApJS, 199: 33 (2012)](http://iopscience.iop.org/0067-0049/199/2/33/).
+
 * * *
 # Available Versions
 
