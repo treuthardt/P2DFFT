@@ -20,6 +20,8 @@ _2DFFT_ can be found [here](http://www.d.umn.edu/~msseigar/2DFFT/2DFFT.tar.gz). 
 * * *
 # Available Versions
 
+[p2dfft-4.4.tgz](https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-4.4.tgz) (Rebase the code to Ubuntu 16.04 LTS and add options to spiral.c to set arm sweep and luminosity change)
+
 [p2dfft-4.2.tgz](https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-4.2.tgz) (Fix missing makefile and CHANGES files in V4.1 and add -a option to avg.py)
 
 [p2dfft-4.1.tgz](https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-4.1.tgz) (Minor bug fixes when using the -n [nautical mile] option on the avg.py tool)
