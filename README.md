@@ -6,6 +6,7 @@ _P2DFFT_ has simplified the user input and depending on the number of cores avai
 * Ability to generate idealized logarithmic spiral test images of a specified size that have 1 to 6 arms with pitch angles of -75 degrees to 75 degrees
 * Ability to output Fourier amplitude versus inner radius and pitch angle versus inner radius for each Fourier component (m = 0 to m = 6)
 * Ability to calculate the Fourier amplitude weighted mean pitch angle across m = 1 to m = 6 versus inner radius
+* Ability to calcualte overall Fourier spectrum over all annuli
 
 * * *
 # Citation
@@ -19,6 +20,8 @@ _2DFFT_ can be found [here](http://www.d.umn.edu/~msseigar/2DFFT/2DFFT.tar.gz). 
 
 * * *
 # Available Versions
+
+[p2dfft-5.2.tgz](https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-5.2.tgz) (Version 5.2 - Major updates and bug fixes and add Zooniverse support and new pitch anlge determination algorithm)
 
 [p2dfft-4.4.tgz](https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-4.4.tgz) (Rebase the code to Ubuntu 16.04 LTS and add options to spiral.c to set arm sweep and luminosity change)
 
