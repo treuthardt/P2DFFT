@@ -21,7 +21,8 @@ _2DFFT_ can be found [here](http://www.d.umn.edu/~msseigar/2DFFT/2DFFT.tar.gz). 
 * * *
 # Available Versions
 
-[p2dfft-5.2.tgz](https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-5.2.tgz) (Version 5.2 - Major updates and bug fixes and add Zooniverse support and new pitch anlge determination algorithm)
+[p2dfft-5.2.tgz](https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-5.2.tgz) [![DOI](https://zenodo.org/badge/86847725.svg)](https://zenodo.org/badge/latestdoi/86847725)
+(Version 5.2 - Major updates and bug fixes and add Zooniverse support and new pitch angle determination algorithm)
 
 [p2dfft-4.4.tgz](https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-4.4.tgz) (Rebase the code to Ubuntu 16.04 LTS and add options to spiral.c to set arm sweep and luminosity change)
 
