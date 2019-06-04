@@ -21,7 +21,8 @@ _2DFFT_ can be found [here](http://www.d.umn.edu/~msseigar/2DFFT/2DFFT.tar.gz). 
 * * *
 # Available Versions
 
-[p2dfft-5.2.1.tgz](https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-5.2.1.tgz) (Bug fixes)
+[p2dfft-5.2.1.tgz](https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-5.2.1.tgz) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3238639.svg)](https://doi.org/10.5281/zenodo.3238639)
+ (Bug fixes)
 
 [p2dfft-5.2.tgz](https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-5.2.tgz) [![DOI](https://zenodo.org/badge/86847725.svg)](https://zenodo.org/badge/latestdoi/86847725)
 (Version 5.2 - Major updates and bug fixes and add Zooniverse support and new pitch angle determination algorithm)
