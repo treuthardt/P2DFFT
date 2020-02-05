@@ -10,7 +10,7 @@ _P2DFFT_ has simplified the user input and depending on the number of cores avai
 
 * * *
 # Citation
-If you publish results using _P2DFFT_, please cite the following paper(s) or the DOI associated with the appropriate software version below:
+If you publish results using _P2DFFT_, please cite the DOI associated with the appropriate software version below and following papers:
 
 Hewitt, I. B., & Treuthardt, P., _Comparison of Galaxy Spiral Arm Pitch Angle Measurements Using Manual and Automated Techniques_, MNRAS, accepted (2020).
 
