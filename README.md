@@ -12,7 +12,7 @@ _P2DFFT_ has simplified the user input and depending on the number of cores avai
 # Citation
 If you publish results using _P2DFFT_, please cite the DOI associated with the appropriate software version below and the following papers:
 
-Hewitt, I. B., & Treuthardt, P., _Comparison of Galaxy Spiral Arm Pitch Angle Measurements Using Manual and Automated Techniques_, MNRAS, accepted (2020).
+[Hewitt, I. B., & Treuthardt, P., _Comparison of Galaxy Spiral Arm Pitch Angle Measurements Using Manual and Automated Techniques_, MNRAS, 493, 3854 (2020)](https://academic.oup.com/mnras/article/493/3/3854/5734509).
 
 [Mutlu-Pakdil, B., Seigar, M. S., Hewitt, I. B., Treuthardt, P., Berrier, J. C., & Koval, L. E., _The Illustris Simulation: Supermassive Black Hole - Galaxy Connection Beyond the Bulge_, MNRAS, 474, 2594 (2018)](https://doi.org/10.1093/mnras/stx2935).
 
