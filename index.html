@@ -1,0 +1,256 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>P2DFFT</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<!-- <span class="logo"><img src="images/logo.svg" alt="" /></span> -->
+						<h1><b>P2DFFT</b></h1></br>
+						<!--<p align="center">A repository for the new parallelized version of <i>2DFFT</i>, </br> a code that allows the user to isolate and measure the spiral arm pitch angle of galaxies.</p> -->
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#about" class="active">About</a></li>
+							<li><a href="#features">Features</a></li>
+							<li><a href="#citation">Citation</a></li>
+							<li><a href="#available">Available Versions</a></li>
+							<li><a href="#footer">Contact</a></li>
+							<li><a href="https://github.com/treuthardt/P2DFFT/wiki" target="_blank">Wiki</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- About -->
+							<section id="about" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>About</h2>
+										</header>
+										<p>This is a repository for the new parallelized version of <i>2DFFT</i>, a code that allows
+											the user to isolate and measure the spiral arm pitch angle of galaxies.</p>
+										<!-- <ul class="actions">
+											<li><a href="generic.html" class="button">Learn More</a></li>
+										</ul> -->
+									</div>
+									<!-- <span class="image"><img src="images/pic01.jpg" alt="" /></span> -->
+									<span class="image"><img src="images/Figure_2.jpg" alt="Toy model of 2 armed, barred, spiral with a pitch angle of 25 degrees." /></span>
+								</div>
+							</section>
+
+
+						<!-- Features -->
+							<section id="features" class="main">
+							<!-- <section id="overview" class="main special"> -->
+								<div class="spotlight">
+									<div class="content" align="left">
+										<header class="major">
+											<h2 align="center">Features</h2>
+										</header>
+										<p><i>P2DFFT</i> has simplified the user input and depending on the number of cores available, runs significantly faster than the older serial version, <i>2DFFT</i>. Further enhancements include:
+											<ul align="left">
+												<li> Allowing direct input of FITS images
+												<li> Optionally outputting inverse Fourier transform FITS images
+												<li> Ability to generate idealized logarithmic spiral test images of a specified size that have 1 to 6 arms with pitch angles of -75 degrees to 75 degrees
+												<li> Ability to output Fourier amplitude versus inner radius and pitch angle versus inner radius for each Fourier component (m = 0 to m = 6)
+												<li> Ability to calculate the Fourier amplitude weighted mean pitch angle across m = 1 to m = 6 versus inner radius
+												<li> Ability to calcualte overall Fourier spectrum over all annuli
+											</ul>
+										</p>
+										<!-- <ul class="actions">
+											<li><a href="generic.html" class="button">Learn More</a></li>
+										</ul> -->
+									</div>
+									<!-- <span class="image"><img src="images/pic01.jpg" alt="" /></span> -->
+								</div>
+							</section>
+
+							<!-- Citation -->
+								<section id="citation" class="main">
+								<!-- <section id="overview" class="main special"> -->
+									<div class="spotlight">
+										<div class="content" align="left">
+											<header class="major">
+												<h2 align="center">Citation</h2>
+											</header>
+											<p>If you publish results using <i>P2DFFT</i>, please cite the DOI associated with the appropriate software version <a href="#available">below</a> and the following papers:</p>
+											<ul>
+												<li><a href="https://academic.oup.com/mnras/article/493/3/3854/5734509" target="_blank">Hewitt, I. B., & Treuthardt, P., <i>Comparison of Galaxy Spiral Arm Pitch Angle Measurements Using Manual and Automated Techniques</i>, MNRAS, 493, 3854 (2020)</a>.</li></br>
+												<li><a href="https://doi.org/10.1093/mnras/stx2935" target="_blank">Mutlu-Pakdil, B., Seigar, M. S., Hewitt, I. B., Treuthardt, P., Berrier, J. C., & Koval, L. E., <i>The Illustris Simulation: Supermassive Black Hole - Galaxy Connection Beyond the Bulge</i>, MNRAS, 474, 2594 (2018)</a>.</li>
+											</ul>
+											<p><i>2DFFT</i> can be found <a href="http://www.d.umn.edu/~msseigar/2DFFT/2DFFT.tar.gz" target="_blank">here</a>. If you publish results using this code, please cite the following paper:</p>
+											<ul>
+												<li><a href="http://iopscience.iop.org/0067-0049/199/2/33/" target="_blank">Davis, B. L., Berrier, J. C., Shields, D. W, et al., <i>Measurement of Galactic Logarithmic Spiral Arm Pitch Angle Using Two-Dimensional Fast Fourier Transform Decomposition</i>, ApJS, 199: 33 (2012)</a>.</li>
+											</ul>
+										</div>
+									</div>
+								</section>
+
+							<!-- Available Versions -->
+								<section id="available" class="main">
+									<div class="spotlight">
+										<div class="content" align="left">
+											<header class="major">
+												<h2 align="center">Available Versions</h2>
+											</header>
+											<p>We recommend downloading the latest version of <i>P2DFFT</i> for use.</p>
+											<!-- Table -->
+											<section>
+												<div class="table-wrapper">
+													<table>
+														<thead>
+															<tr>
+																<th>Version</th>
+																<th>DOI</th>
+																<th>Date</th>
+																<th>Comments</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td><a href="https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-5.3.1.tgz" target="_blank">p2dfft-5.3.1.tgz</a></td>
+																<td><a href="https://doi.org/10.5281/zenodo.3647563" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3647563.svg" alt="https://doi.org/10.5281/zenodo.3647563"/></a></td>
+																<td>05 Feb 2020</td>
+																<td>Enhancements, bug fixes, and other minor changes</td>
+															</tr>
+															<tr>
+																<td><a href="https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-5.2.2.tgz" target="_blank">p2dfft-5.2.2.tgz</a></td>
+																<td><a href="https://doi.org/10.5281/zenodo.3238638" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3238638.svg" alt="https://doi.org/10.5281/zenodo.3238638"/></a></td>
+																<td>29 Aug 2019</td>
+																<td>Bug fixes</td>
+															</tr>
+															<tr>
+																<td><a href="https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-5.2.1.tgz" target="_blank">p2dfft-5.2.1.tgz</a></td>
+																<td><a href="https://doi.org/10.5281/zenodo.3238639" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3238639.svg" alt="https://doi.org/10.5281/zenodo.3238639"/></a></td>
+																<td>04 Jun 2019</td>
+																<td>Bug fixes</td>
+															</tr>
+															<tr>
+																<td><a href="https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-5.2.tgz" target="_blank">p2dfft-5.2.tgz</a></td>
+																<td><a href="https://doi.org/10.5281/zenodo.3165701" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3165701.svg" alt="https://doi.org/10.5281/zenodo.3165701"/></a></td>
+																<td>22 May 2019</td>
+																<td>Major updates, bug fixes, add Zooniverse support and new pitch angle determination algorithm</td>
+															</tr>
+															<tr>
+																<td><a href="https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-4.4.tgz" target="_blank">p2dfft-4.4.tgz</a></td>
+																<td></td>
+																<td></td>
+																<td>Rebase the code to Ubuntu 16.04 LTS and add options to spiral.c to set arm sweep and luminosity change</td>
+															</tr>
+															<tr>
+																<td><a href="https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-4.2.tgz" target="_blank">p2dfft-4.2.tgz</a></td>
+																<td></td>
+																<td></td>
+																<td>Fix missing makefile and CHANGES files in V4.1 and add -a option to avg.py</td>
+															</tr>
+															<tr>
+																<td><a href="https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-4.1.tgz" target="_blank">p2dfft-4.1.tgz</a></td>
+																<td></td>
+																<td></td>
+																<td>Minor bug fixes when using the -n [nautical mile] option on the avg.py tool</td>
+															</tr>
+															<tr>
+																<td><a href="https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-4.0.tgz" target="_blank">p2dfft-4.0.tgz</a></td>
+																<td></td>
+																<td></td>
+																<td>Major update to switch to using the Harvard FFTW3 libraries for performance and better licensing terms.  Also further updates to avg.py output plotting program, bug fixes, additional documentation, and more usuability enhancements</td>
+															</tr>
+															<tr>
+																<td><a href="https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-3.5.tgz" target="_blank">p2dfft-3.5.tgz</a></td>
+																<td></td>
+																<td></td>
+																<td>Major updates to avg.py output plotting program, bug fixes, and usuability enhancements</td>
+															</tr>
+															<tr>
+																<td><a href="https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-3.3.tgz" target="_blank">p2dfft-3.3.tgz</a></td>
+																<td></td>
+																<td></td>
+																<td>Updated instructions, add support for reentrant flag in CFITSIO libraries, and correct error in handling ASCII FITS files</td>
+															</tr>
+															<tr>
+																<td><a href="https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-3.2.tgz" target="_blank">p2dfft-3.2.tgz</a></td>
+																<td></td>
+																<td></td>
+																<td>Eliminated compatibility issue between C++11 and GCC versions older than 4.9</td>
+															</tr>
+															<tr>
+																<td><a href="https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-3.1.tgz" target="_blank">p2dfft-3.1.tgz</a></td>
+																<td></td>
+																<td></td>
+																<td>Initial release</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</section>
+										</div>
+									</div>
+								</section>
+					</div>
+
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Contact Us</h2>
+								<form action="https://formspree.io/xeqrjlqg" method="POST">
+									<div class="row gtr-uniform gtr-50">
+										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+									</div>
+									<p>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" /></li>
+										</ul>
+								</form>
+						</section>
+						<section>
+							<h2>Contact Information</h2>
+							<dl class="alt">
+								<dt>Address</dt>
+								<dd>Astronomy & Astrophysics Research Lab </br> North Carolina Museum of Natural Sciences </br> 11 West Jones Street  </br> Raleigh, North Carolina 27604  </br> United States of America</dd>
+								<dt>Phone</dt>
+								<dd><a href="tel:9197079278">(+1) 919-707-9278</a></dd>
+								<dt>Email</dt>
+								<dd><a href="mailto:patrick.treuthardt@naturalsciences.org">patrick.treuthardt@naturalsciences.org</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="https://github.com/treuthardt/P2DFFT" target="_blank" class="icon brands fa-github alt"><span class="label">P2DFFT GitHub</span></a></li>
+							</ul>
+						</section>
+						<p align="center" class="copyright">&copy; 2020 Patrick Treuthardt &nbsp;&bull;&nbsp; Design: <a href="https://html5up.net">HTML5 UP</a> &nbsp;&bull;&nbsp; <a href="https://hubblesite.org/contents/media/images/2019/17/4493-Image.html" target="_blank">Image Credit</a></p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
