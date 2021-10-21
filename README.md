@@ -23,7 +23,7 @@ _2DFFT_ can be found [here](http://www.d.umn.edu/~msseigar/2DFFT/2DFFT.tar.gz). 
 * * *
 # Available Versions
 
-[p2dfft-6.0.tgz](https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-6.0.tgz) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5590205.svg)](https://doi.org/10.5281/zenodo.5590205) (Enhancements including HDF5 data file format, bug fixes, and code cleanup/organization)
+[p2dfft-6.0.tgz](https://github.com/treuthardt/P2DFFT/blob/release/p2dfft-6.0.tgz) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5590205.svg)](https://doi.org/10.5281/zenodo.5590205) (Enhancements including HDF5 data file format, bug fixes, and code cleanup/organization)
 
 [p2dfft-5.3.2.tgz](https://github.com/treuthardt/P2DFFT/blob/master/p2dfft-5.3.2.tgz) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3805095.svg)](https://doi.org/10.5281/zenodo.3805095) (Enhancements, bug fixes, and code cleanup/organization)
 
