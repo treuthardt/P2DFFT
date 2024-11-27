@@ -23,6 +23,9 @@ _2DFFT_ can be found [here](http://www.d.umn.edu/~msseigar/2DFFT/2DFFT.tar.gz). 
 * * *
 # Available Versions
 
+[p2dfft-6.2.tgz](https://github.com/treuthardt/P2DFFT/blob/release/p2dfft-6.2.tgz) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14231780.svg)](https://doi.org/10.5281/zenodo.14231780)
+(Re-enabled setting inner radius.)
+
 [p2dfft-6.1.tgz](https://github.com/treuthardt/P2DFFT/blob/release/p2dfft-6.1.tgz) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14035870.svg)](https://doi.org/10.5281/zenodo.14035870)
 (A number of bug fixes, enhancements, and other things. Please see included CHANGES file for a summary.)
 
